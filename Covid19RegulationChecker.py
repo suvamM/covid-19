@@ -1,6 +1,5 @@
 # Covid-19 Regulations Checker
-# Suvam Mukherjee
-# 
+# Suvam Mukherjee, 2020
 
 from z3 import *
 
@@ -258,9 +257,9 @@ if __name__ == '__main__':
 
         print(".. All regulations are consistent.")
 
-        option = input(".. Search status of service [list to enumerate, exit to quit]: ")
-        while (str(option) != "exit"):
-            if (str(option) == "list"):
+        option = input(".. Search status of service [type \"ls\" to enumerate, type \"x\" to quit]: ")
+        while (str(option) != "x"):
+            if (str(option) == "ls"):
                 print("\n=============== Available Services to query ===============")
                 for k in solution:
                     print("%s, " % k, end="")
@@ -269,7 +268,7 @@ if __name__ == '__main__':
                 print("... Status of %s = %s" % (option, solution[option]))
             else:
                 print("... You are querying an unsupported service. Please retry.")
-            option = input(".. Search another? [list to enumerate, exit to quit]: ")
+            option = input(".. Search another? [type \"ls\" to enumerate, type \"x\" to quit]: ")
         print(". Thanks for using the COVID-19 Regulations Checker!")
     else:
         print(".. Rule inconsistencies detected!")
