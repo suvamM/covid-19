@@ -55,7 +55,8 @@ I'd love to have your thoughts and inputs in this project! Please feel free to r
 And most importantly, stay safe!
 
 
-## Orders issuednot
+## Orders
+Till now, I have considered the following government orders:
 - <a target="_blank" href="https://mha.gov.in/sites/default/files/PR_ConsolidatedGuidelinesofMHA_28032020.pdf"> Ministry of Home Affairs Lockdown Guidelines </a> dated 24/03/2020, modified 27/03/2020
 - <a target="_blank" href="https://static.mygov.in/rest/s3fs-public/mygov_158513429651307401.pdf"> Andaman and Nicobar UT wide lockdown </a> dated 19/03/2020
 - <a target="_blank" href="https://static.mygov.in/rest/s3fs-public/mygov_158513429651307401.pdf"> Andaman and Nicobar Lockdown of Transport </a> dated 19/03/2020
