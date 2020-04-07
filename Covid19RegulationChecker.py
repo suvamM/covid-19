@@ -1,4 +1,6 @@
 # Covid-19 Regulations Checker
+# Suvam Mukherjee
+# 
 
 from z3 import *
 
